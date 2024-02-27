@@ -5,10 +5,13 @@ defined("ABSPATH") or die();
 class Main
 {
     /**
-     * @param $price
-     * @return float|int|mixed|string
+     * Converting price amount.
+     *
+     * @param float|int $price Item price.
+     * @param array $cart_item Cart item.
+     * @return float|int
      */
-    function getPrice($price)
+    function getPrice($price,$cart_item)
     {
         if (!is_numeric($price) || empty($price) || !function_exists('wcpbc_the_zone')) {
             return $price;

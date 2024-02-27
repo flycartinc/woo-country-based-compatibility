@@ -15,7 +15,6 @@ class Router
     function init()
     {
         self::$main = empty(self::$main) ? new Main() : self::$main;
-        add_filter('advanced_woo_discount_rules_converted_currency_value', [self::$main, 'getPrice'], 10);
-
+        add_filter('wdr_discounted_cart_item_price', [self::$main, 'getPrice'], 10,2);
     }
 }
