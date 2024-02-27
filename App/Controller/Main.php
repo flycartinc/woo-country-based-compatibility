@@ -11,7 +11,7 @@ class Main
      * @param array $cart_item Cart item.
      * @return float|int
      */
-    function getPrice($price,$cart_item)
+    function getPrice($price,array $cart_item)
     {
         if (!is_numeric($price) || empty($price) || !function_exists('wcpbc_the_zone')) {
             return $price;

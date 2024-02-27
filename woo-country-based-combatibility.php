@@ -53,9 +53,9 @@ if (!$plugin::isActive('woocommerce-product-price-based-on-countries/woocommerce
     return;
 }
 
-defined('WCBC_PLUGIN_NAME') or define('WCBC_PLUGIN_NAME', 'Woo wholesale prices compatibility');
+defined('WCBC_PLUGIN_NAME') or define('WCBC_PLUGIN_NAME', 'Woo product price based on country compatibility');
 defined('WCBC_PLUGIN_VERSION') or define('WCBC_PLUGIN_VERSION', '1.0.0');
-defined('WCBC_PLUGIN_SLUG') or define('WCBC_PLUGIN_SLUG', 'woo-wholesale-price-compatibility');
+defined('WCBC_PLUGIN_SLUG') or define('WCBC_PLUGIN_SLUG', 'woo-country-based-compatibility');
 
 if (!file_exists(__DIR__ . '/vendor/autoload.php')) {
     return;
