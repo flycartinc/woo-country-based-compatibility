@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:         Woo country based compatibility
+ * Plugin Name:         Discount rules : Country based price compatibility
  * Plugin URI:          https://www.flycart.org
  * Description:         This add-on used to give compatibility of woocommerce country based prices by oscargare for woo discount rules.
  * Version:             1.0.0
